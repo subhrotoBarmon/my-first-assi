@@ -95,11 +95,12 @@ nav h1{
 .sec3 p{
     font-size: xx-small;
     color:darkgrey;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .sec3 img{
     border-radius: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .sec3 button{
     background-color: #4E47FF;
@@ -113,6 +114,8 @@ nav h1{
     gap: 100px;
     /* margin: 0 300px; */
     margin-left: 200px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 50px;
 }
 .sec4 h4{
     padding-top: 30px;
@@ -123,4 +126,36 @@ nav h1{
     padding: 5px 20px;
     color:rgb(191, 197, 201) ;
     background-color: #4E47FF;
+}
+.sec5{
+    text-align: center;
+    padding: auto;
+    margin-top: 50px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: .6em;
+    color: darkgrey;
+    margin-left: 270px;
+    padding-bottom: 30px;
+    /* align-items: center; */
+}
+ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.sec5 p{
+    font-size: .6em;
+    color: #8987A1;
+
+}
+.sec5 h1{
+    color: #4E47FF;
+    font-size: 2em;
+    margin:auto;
+    /* margin-top: 0px; */
+    /* padding:800p; */
+    /* padding-top: 50px; */
 }
