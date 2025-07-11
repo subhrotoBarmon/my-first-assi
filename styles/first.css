@@ -1,0 +1,105 @@
+normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+    background-image: url(/Assets/Hero-bg.png);
+    height: 300px;
+    width: 100%;
+    
+    
+}
+.oo{
+    text-align: center;
+    color: #000;
+    margin-top: 50px;
+}
+.pp{
+    text-align: center;
+    /* align-items: center; */
+    background-color:#4E47FF ;
+    border-radius: 5px;
+    margin-left: 380px;
+    padding: 5px 10px;
+    color: rgb(191, 197, 201);
+    font-size: .5em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+nav h4{
+    color: #4E47FF;
+}
+nav li{
+    list-style: none;
+    /* background-color: #4E47FF; */
+}
+nav li button{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    color: rgb(191, 197, 201);
+    padding: 5px 10px;
+    font-size: .5em;
+}
+.div1 p{
+    font-size:x-small;
+    color: #414143;
+}
+
+.div1 button{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    color:rgb(191, 197, 201) ;
+    padding: 5px 10px;
+    font-size: .5em;
+}
+.sec1 img{
+    border-radius: 10px;
+}
+.sec1{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+}
+
+.sec2 h4{
+    text-align: center;
+}
+nav h1{
+    display: flex;
+}
+.sec3{
+    text-align: center;
+    border: 0px solid wheat;
+    background-color:#e6dbdb84;
+    margin: 80px 100px;
+}
+.sec3 h4{
+    color: #000000d3;
+    /* margin-top:20px ; */
+    padding-top: 10px;
+}
+.sec3 p{
+    font-size: xx-small;
+    color:darkgrey;
+    padding-bottom: 5px;
+}
+.sec3 img{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sec3 button{
+    background-color: #4E47FF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: .5em;
+    color: rgb(191, 197, 201);
+}
