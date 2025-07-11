@@ -5,6 +5,9 @@ normal {
   font-variation-settings:
     "wdth" 100;
 }
+main{
+    background-color: beige;
+}
 .header{
     background-image: url(/Assets/Hero-bg.png);
     height: 300px;
@@ -61,13 +64,15 @@ nav li button{
     font-size: .5em;
 }
 .sec1 img{
-    border-radius: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    
 }
 .sec1{
     display: flex;
-    gap: 300px;
+    gap: 200px;
     align-items: center;
-    margin: 50px 100px 50px 100px;
+    margin: 50px 100px 50px 150px;
 }
 
 .sec2 h4{
@@ -102,4 +107,20 @@ nav h1{
     padding: 5px 10px;
     font-size: .5em;
     color: rgb(191, 197, 201);
+}
+.sec4{
+    display: flex;
+    gap: 100px;
+    /* margin: 0 300px; */
+    margin-left: 200px;
+}
+.sec4 h4{
+    padding-top: 30px;
+    font-size: 2em;
+}
+.sec4 button{
+    font-size: .5em;
+    padding: 5px 20px;
+    color:rgb(191, 197, 201) ;
+    background-color: #4E47FF;
 }
