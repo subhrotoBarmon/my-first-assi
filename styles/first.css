@@ -9,7 +9,7 @@ main{
     background-color: beige;
 }
 .header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Hero-bg.png);
     height: 300px;
     width: 100%;
     
