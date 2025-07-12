@@ -1,7 +1,5 @@
 normal {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
  
 }
 main{
@@ -27,7 +25,7 @@ main{
     margin-left: 380px;
     padding: 5px 10px;
     color: rgb(191, 197, 201);
-    font-size: .5em;
+    font-size: 10px;
 }
 
 nav{
@@ -49,7 +47,7 @@ nav li button{
     border-radius: 5px;
     color: rgb(191, 197, 201);
     padding: 5px 10px;
-    font-size: .5em;
+    font-size: 16px;
 }
 .div1 p{
     font-size:x-small;
@@ -61,7 +59,7 @@ nav li button{
     border-radius: 5px;
     color:rgb(191, 197, 201) ;
     padding: 5px 10px;
-    font-size: .5em;
+    font-size: 10px;
 }
 .sec1 img{
     border-radius: 15px;
@@ -78,13 +76,13 @@ nav li button{
 .sec2 h4{
     text-align: center;
     color: #1e1e1e;
-    font-size: .85em;
+    font-size:40px;
 }
 .card-container{
     display: flex;
     gap: 50px;
     
-    padding-left: 100px;
+    padding-left: 30px;
     margin:0 80px;
 
 }    
@@ -94,18 +92,23 @@ nav li button{
     border-radius: 10px;
 }
 .sec2 h1{
-    font-size:2em;
+    font-size:60px;
     color: #4E47FF;
-    text-align: center;
-    line-height: 0;
+    margin: 0 auto;
+    /* text-align: center; */
+    line-height: 20px;
     /* background-color: #4E47FF; */
 }
 .sec2 p{
-    font-size: .5em;
+    font-size:15px;
     color: #78787b;
-    padding-bottom: 20px;
-    margin-top: 0;
-    line-height: 0;
+    /* padding-bottom: 20px; */
+    /* margin-top: 0; */
+    /* line-height: 0; */
+    /* padding-left:100px; */
+}
+.sec2 p h1{
+    padding-right: 50px;
 }
 nav h1{
     display: flex;
@@ -135,24 +138,24 @@ nav h1{
     background-color: #4E47FF;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: .5em;
+    font-size: 12px;
     color: rgb(191, 197, 201);
 }
 .sec4{
     display: flex;
     gap: 100px;
     /* margin: 0 300px; */
-    margin-left: 200px;
+    margin-left: 150px;
     /* margin-bottom: 50px; */
     padding-bottom: 50px;
     align-items: center;
 }
 .sec4 h4{
     padding-top: 30px;
-    font-size: 2em;
+    font-size:  50px;;
 }
 .sec4 button{
-    font-size: .5em;
+    font-size: 10px;
     padding: 5px 20px;
     color:rgb(191, 197, 201) ;
     background-color: #4E47FF;
@@ -166,7 +169,7 @@ ul{
     display: flex;
     gap: 20px;
     list-style: none;
-    font-size: .6em;
+    font-size: 12px;
     color: darkgrey;
     margin-left: 270px;
     padding-bottom: 30px;
@@ -177,13 +180,13 @@ ul li a{
     color: #8987A1;
 }
 .sec5 p{
-    font-size: .6em;
+    font-size:15px;
     color: #8987A1;
 
 }
 .sec5 h1{
     color: #4E47FF;
-    font-size: 2em;
+    font-size: 100px;
     margin:auto;
     /* margin-top: 0px; */
     /* padding:800p; */
@@ -197,7 +200,7 @@ ul li a{
         text-align: center;
         color: #414143;
         font-family: serif;
-        font-size: .95em;
+        font-size:42px;
     }
 .sec25{
     display: flex;
@@ -216,13 +219,14 @@ ul li a{
 }
 .sec25 h6{
     line-height:0px;
-    font-size: .5em;
+    font-size: 10px;
     color: #414143;
+    line-height: 0px;
 
     }
     .sec25 .p{
-        line-height: 0;
-        font-size: .5em;
+        line-height: 0px;
+        font-size:10px;
         color: #78787b;
     }
     .sec25 .circle{
@@ -230,10 +234,10 @@ ul li a{
     }
     .sec25 h3{
         color: #1e1e1e;
-        font-size: .8em;
+        font-size: 20px;
     }
     .sec25 .ppp{
-        font-size: .6em;
+        font-size:12px;
         color: #2d2d2f;
     }
     .img{
