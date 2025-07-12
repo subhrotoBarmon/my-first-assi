@@ -36,6 +36,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 100px;
+    align-items: center;
 }
 nav h4{
     color: #4E47FF;
@@ -145,6 +146,7 @@ nav h1{
     margin-left: 200px;
     /* margin-bottom: 50px; */
     padding-bottom: 50px;
+    align-items: center;
 }
 .sec4 h4{
     padding-top: 30px;
@@ -190,6 +192,7 @@ ul li a{
 }
 .flex{
     display: flex;
+    align-items: center;
 }
 .klk{
         text-align: center;
@@ -201,6 +204,7 @@ ul li a{
     display: flex;
     gap: 15px;
     margin-left: 100px;
+    align-items: center;
 }
 .card{
     width: 195px;
@@ -236,5 +240,8 @@ ul li a{
     .img{
         line-height: 0;
         padding-top: 10px;
+    }
+    button:hover{
+        background-color: #4E47FF;
     }
     
